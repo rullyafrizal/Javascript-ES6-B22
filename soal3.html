@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal Nomor 3</title>
+</head>
+<body>
+
+
+<script>
+    const newObject = {
+        firstName: "Harry",
+        lastName: "Potter Holt",
+        destination: "Hogwarts React Conf",
+        occupation: "Deve-wizard Avocado",
+        spell: "Vimulus Renderus!!!"
+    }
+
+    //ES5 Way
+    // const firstName = newObject.firstName;
+    // const lastName = newObject.lastName;
+    // const destination = newObject.destination;
+    // const occupation = newObject.occupation;
+
+    //ES6 Way
+    const {firstName, lastName, destination, occupation, spell} = newObject;
+
+    // Driver code
+    console.log(firstName, lastName, destination, occupation, spell);
+</script>
+</body>
+</html>
